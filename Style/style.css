@@ -1,0 +1,276 @@
+:root {
+    --primary: #FF5B00;
+    --secondary: #FFFBEA;
+}
+
+body {
+    max-width: 100svw;
+    min-height: 100svh;
+    background-color: var(--secondary);
+}
+
+/* Navbar Style */
+nav .icon {
+    width: 50px;
+    height: 50px;
+}
+
+nav .img-container {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ff59007c;
+}
+
+.navbar-nav .nav-link i,
+.navbar-nav .nav-link p {
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover i,
+.navbar-nav .nav-link:hover p {
+    color: var(--primary) !important;
+}
+
+.navbar-toggler i {
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler:hover i {
+    color: var(--primary) !important;
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+#navbarSupportedContent.show p {
+    display: block !important;
+}
+
+#navbarSupportedContent.show {
+    border-top: 1px solid #ff590041;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+/* Card Style */
+.right{
+    height: 750px;
+    overflow-y:auto ;
+    scrollbar-width: thin;
+    scrollbar-color: #fe886a80 transparent;
+    scrollbar-arrow-color: transparent;
+}
+
+.card img {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.card .rate {
+    top: 20px;
+    left: 20px;
+}
+
+.card .stat {
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.card .icon {
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+
+.card .icon:hover {
+    background-color: #FFD7A8;
+    cursor: pointer;
+}
+
+.card .btn {
+    transition: all 0.3s ease;
+}
+
+.card .btn:hover {
+    transform: scale(1.08);
+    background-image: linear-gradient(to right, #F44800, #E80008);
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
+    background-color: transparent;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+    color: #545a66;
+    font-weight: 600;
+    font-size: 1.12rem;
+    transition: color 0.5s ease;
+    text-align: center;
+}
+.nav-pills .nav-link:hover{
+    color: #2d3036;
+}
+.card .ing .num{
+    width: 20px;
+    height: 20px;
+}
+.card .ing , .card .inst , .card .nut , .card .tip{
+    overflow-y: auto;
+    height: 360px;
+    scrollbar-width: thin;
+    scrollbar-color: #fe886a80 transparent;
+}
+
+.card .inst .num{
+    width: 50px;
+    height: 50px;
+    color: #ff6900;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+.card .nut .icon{
+    width: 40px;
+    height: 40px;
+}
+.nut .col-12:nth-child(1) .icon
+{
+    background-color: #FFEDD4;
+}
+.nut .col-12:nth-child(2) .icon
+{
+    background-color: #DBEAFE;
+    color: #155dfb;
+}
+.nut .col-12:nth-child(3) .icon
+{
+    background-color: #FEF9C2;
+    color: #d08700;
+}
+.nut .col-12:nth-child(4) .icon
+{
+    background-color: #FFE2E2;
+    color: #e7000b;
+}
+.nut .col-12:nth-child(5) .icon
+{
+    background-color: #DBFCE7;
+    color: #00a63e;
+}
+.nut .col-12:nth-child(6) .icon
+{
+    background-color: #FCE7F3;
+    color: #e60076;
+}
+.tip .tipp{
+    border-left: 4px solid #ffb900;
+    border-radius: 5px;
+    background-color: #fffbeb;
+}
+.warn{
+    background-color: #fef2f2;
+    border-left: 4px solid #fb2c36;
+}
+.iconn{
+    color: #fb2c36;
+}
+.ext{
+    color: #9f0712;
+}
+.warning{
+    color: #e7000b;
+}
+
+
+
+/* Cutstom Style */
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-gray {
+    color: #4a5565;
+}
+
+.text-blue {
+    color: #2b7fff;
+}
+
+.bg-light-blue {
+    background-color: #DBEAFE;
+}
+
+.text-green {
+    color: #008235;
+}
+
+.bg-light-green {
+    background-color: #dcfce7;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-light-primary {
+    background-color: #ffedd4;
+}
+
+.bg-gradiant {
+    background-image: linear-gradient(to right, #ff6900, #fb2c36);
+}
+.bg-light{
+    background-color: #FFF9ED !important;
+}
+.text-dark-gray{
+    color: #364153;
+}
+.text-orange{
+    color: #e17100;
+}
+.fs-small {
+    font-size: 0.8rem;
+}
+.bg-gray{
+    background-color: #f9fafb;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+
+@media (max-width:768px) {
+    .fs-sm {
+        font-size: 1.2rem !important;
+    }
+    .right .thai{
+        font-size: 1.5rem !important;
+    }
+    .right .des{
+        font-size: 1rem !important;
+    }
+    .nav-link p , .nav-link i{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:576px) {
+    .nav-link p , .nav-link i{
+        font-size: 0.65rem;
+    }
+}
+@media (max-width:1200px) {
+    .card img {
+        border-radius: 1rem 1rem 0 0;
+    }
+    .right{
+        height: auto;
+    }
+}
