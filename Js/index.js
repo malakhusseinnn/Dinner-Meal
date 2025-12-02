@@ -10,7 +10,7 @@ const recipe = [
         prepTime: 15,
         cookTime: 25,
         servings: "4 people",
-        image: "../Media/photo-1455619452474-d2be8b1e70cd.avif",
+        image: "Media/photo-1455619452474-d2be8b1e70cd.avif",
         ingredients: [
             "2 tablespoons green curry paste", "400ml coconut milk", "300g chicken breast, sliced",
             "1 red bell pepper, sliced", "100g green beans", "1 eggplant, cubed",
@@ -51,7 +51,7 @@ const recipe = [
         prepTime: 15,
         cookTime: 20,
         servings: "4 people",
-        image: "../Media/photo-1568901346375-23c9450c58cd.avif",
+        image: "Media/photo-1568901346375-23c9450c58cd.avif",
         ingredients: [
             "500g ground beef (80/20)", "4 burger buns", "4 slices cheddar cheese",
             "Lettuce leaves", "Tomato slices", "Red onion, sliced",
@@ -92,7 +92,7 @@ const recipe = [
         prepTime: 15,
         cookTime: 0,
         servings: "2 people",
-        image: "../Media/photo-1546793665-c74683f339c1.avif",
+        image: "Media/photo-1546793665-c74683f339c1.avif",
         ingredients: [
             "1 large romaine lettuce", "1/2 cup Caesar dressing", "1/2 cup parmesan cheese, shaved",
             "1 cup croutons", "2 anchovy fillets (optional)", "Lemon wedges",
@@ -133,7 +133,7 @@ const recipe = [
         prepTime: 10,
         cookTime: 15,
         servings: "2 people",
-        image: "../Media/photo-1559314809-0d155014e29e.avif",
+        image: "Media/photo-1559314809-0d155014e29e.avif",
         ingredients: [
             "400g large shrimp, peeled", "300g linguine pasta", "6 cloves garlic, minced",
             "1/2 cup white wine", "4 tablespoons butter", "2 tablespoons olive oil",
@@ -175,7 +175,7 @@ const recipe = [
         prepTime: 30,
         cookTime: 60,
         servings: "4 people",
-        image: "../Media/photo-1601050690597-df0568f70950.avif",
+        image: "Media/photo-1601050690597-df0568f70950.avif",
         ingredients: [
             "3 large eggplants, sliced", "500g ground lamb", "400g canned tomatoes",
             "1 onion, diced", "3 cloves garlic, minced", "500ml béchamel sauce",
@@ -216,7 +216,7 @@ const recipe = [
         prepTime: 20,
         cookTime: 30,
         servings: "4 people",
-        image: "../Media/photo-1565557623262-b51c2513a641.avif",
+        image: "Media/photo-1565557623262-b51c2513a641.avif",
         ingredients: [
             "600g chicken breast, cubed", "1 cup plain yogurt", "2 tablespoons tikka masala paste",
             "400ml coconut cream", "1 onion, diced", "4 cloves garlic, minced",
@@ -257,7 +257,7 @@ const recipe = [
         prepTime: 10,
         cookTime: 5,
         servings: "2 people",
-        image: "../Media/photo-1509722747041-616f39b57569.avif",
+        image: "Media/photo-1509722747041-616f39b57569.avif",
         ingredients: [
             "1 ciabatta bread", "200g fresh mozzarella, sliced", "2 large tomatoes, sliced",
             "Fresh basil leaves", "3 tablespoons pesto", "2 tablespoons balsamic glaze",
@@ -298,7 +298,7 @@ const recipe = [
         prepTime: 90,
         cookTime: 12,
         servings: "2 people",
-        image: "../Media/photo-1574071318508-1cdbab80d002.avif",
+        image: "Media/photo-1574071318508-1cdbab80d002.avif",
         ingredients: [
             "300g pizza dough", "200g crushed tomatoes", "250g fresh mozzarella",
             "Fresh basil leaves", "2 tablespoons olive oil", "2 cloves garlic, minced",
@@ -339,7 +339,7 @@ const recipe = [
         prepTime: 15,
         cookTime: 20,
         servings: "4 people",
-        image: "../Media/photo-1612874742237-6526221588e3.avif",
+        image: "Media/photo-1612874742237-6526221588e3.avif",
         ingredients: [
             "400g spaghetti pasta", "200g pancetta or guanciale, diced", "4 large eggs",
             "100g Pecorino Romano cheese, grated", "50g Parmesan cheese, grated", "Freshly ground black pepper",
@@ -381,7 +381,7 @@ const recipe = [
         prepTime: 20,
         cookTime: 15,
         servings: "2 people",
-        image: "../Media/photo-1559314809-0d155014e29e.avif",
+        image: "Media/photo-1559314809-0d155014e29e.avif",
         ingredients: [
             "200g rice noodles", "200g shrimp, peeled", "2 eggs",
             "3 tablespoons tamarind paste", "2 tablespoons fish sauce", "1 tablespoon palm sugar",
